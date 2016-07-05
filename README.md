@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+client    = Facebook::Leads::ResponseClient.new(access_token)
+responses = client.get_form_responses(form_id)
+```
 
 ## Development
 

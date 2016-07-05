@@ -5,7 +5,9 @@ describe Facebook::Leads do
     expect(Facebook::Leads::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'lets you get leads' do
+    pending
+    # need to make a fake lead ad
+    #  or see if FB does a test api
   end
 end
